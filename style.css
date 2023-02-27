@@ -1,0 +1,12 @@
+body{
+    background-color: blanchedalmond;
+}
+#game-area{
+    display:grid;
+    border:1px solid black;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    width:600px;
+    height: 600px;
+    margin: 0 auto;
+}
